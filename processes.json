@@ -1,0 +1,11 @@
+{
+	"apps": [{
+		"name": "HavocBot",
+		"script": "bot.js",
+		"watch": false,
+		"ignore_watch": ["./storage", "./node_modules", "./modules", "./events"],
+		"args": [
+			"--color"
+		]
+	}]
+}

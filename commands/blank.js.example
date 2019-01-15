@@ -1,0 +1,26 @@
+module.exports = {
+	//Default name of the command <required>
+	name: 'blank',
+	//Help description of command <required>
+	description: 'This command is only used for testing purposes. It serves no use, other than to beta new features',
+	//Aliases for the command
+	alias: ['test'],
+	//If command arguments are required
+	args: true,
+	//Command usage (i.e [commandvariable])
+	usage: '[test]',
+	//Limit command to Erestian#7734
+	limitId: true,
+	//Limit command to guild (server) only. No DMs
+	guildOnly: true,
+	//Change command cooldown (Default: 3)
+	cooldown: 10,
+	//Command's execute function <required>
+	async execute(message, args) {
+		return;
+	},
+	//Subcommands follow the same style, they're called by {bot_prefix}{command name} {subcommand name}
+	async demo(message, args) {
+		return;
+	},
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Havoc-Discord-Bot",
+	"version": "1.0.0",
+	"description": "Discord Bot v4.20",
+	"main": "bot.js",
+	"author": "Tyler Biles",
+	"dependencies": {
+		"discord.js": "^11.4.2",
+		"nodemailer": "^4.6.8",
+		"request": "^2.88.0"
+	}
+}
