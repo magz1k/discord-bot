@@ -1,8 +1,8 @@
 {
 	"prefix": "!",
-	"token": "NDk4MTQ2NTI5MTk4OTk3NTA1.DpqTzA.iT-CViCjwUicC5t37FWWPdxiGfU",
-	"owner": "354757995055415306",
-	"admins": ["354757995055415306", "255585617684070400"],
+	"token": "DISCORD_TOKEN_HERE",
+	"owner": "OWNER_DISCORD_ID",
+	"admins": ["OWNER_DISCORD_ID", "OWNER_DISCORD_ID"], //Used for certain commands
 	"defaultCooldown": 3,
 	"defaultVolume": 0.5,
 	"defaultRealm": "suramar"
